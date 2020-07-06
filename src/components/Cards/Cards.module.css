@@ -1,0 +1,37 @@
+.container{
+    margin: 50px 0;
+}
+.card{
+    margin: 0 2% !important;
+   
+}
+.infected{
+     box-shadow: 3px 3px 11px 1px #888888 !important;
+    border: 10px solid rgba(0, 0, 255, 0.5) ;
+}
+.recovered{
+    box-shadow: 3px 3px 11px 1px #888888 !important;
+    border: 10px solid rgba(0, 255, 0, 0.5); 
+}
+.deaths{
+    box-shadow: 3px 3px 11px 1px #888888 !important;
+    border: 10px solid rgba(255, 0, 0, 0.5); 
+}
+@media (max-width: 770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
+.InfectedImage{
+    margin: auto;
+    display: flex;
+   padding: 3px;
+    height: 113px;
+   
+}
+p{
+    font-weight: bold;
+    color: #DF0548;
+    font-size: x-large;
+    font-style: italic;
+}
